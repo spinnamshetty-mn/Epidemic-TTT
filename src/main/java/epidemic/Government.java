@@ -8,6 +8,7 @@ public class Government {
 	
 	private String id;
 	private String password;
+	private String xyz;
 	
 	private List<Patient> patients=new ArrayList<Patient>();
 	private List<HealthWorker> healthworker=new ArrayList<HealthWorker>();
