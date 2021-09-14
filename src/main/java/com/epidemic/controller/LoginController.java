@@ -32,7 +32,7 @@ public class LoginController {
 	}
 	
 	////////--------------------signup---------------------------////
-	
+	//TO-DO
 	@RequestMapping("/signup") //catch the type
 	public String signup(@RequestParam("Type") String type) {
 		if(type.equals("Patient")) {
