@@ -21,7 +21,7 @@ public class Patient {
 	//private	String healthworker;
 	private	Long mobile;
 	//private	List<Integer> list=new ArrayList<Integer>();
-	
+	//
 	public long getMobile() {
 		return mobile;
 	}
