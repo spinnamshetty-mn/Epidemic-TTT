@@ -30,6 +30,16 @@ public class PatientService {
 		Patient p_db=patient_repo.findByEmail(patient.getEmail());
 		return p_db;
 	}
+	public Patient searchPatient(String email) {
+		// TODO Auto-generated method stub
+		Patient p_db=patient_repo.findByEmail(email);
+		return p_db;
+	}
+	public Patient searchPatient(int id) {
+		// TODO Auto-generated method stub
+		Patient p_db=patient_repo.findById(id);
+		return p_db;
+	}
 	
 	
 	public boolean validate(String email,String password) {

@@ -7,6 +7,7 @@
 <title>Error</title>
 </head>
 <body>
+	
 	Error is there
 </body>
 </html>

@@ -18,11 +18,13 @@
     
       <div class ="select">
       <form action="login" method="post"> 
-		 <label for="category">Login As :</label>
+		 <label id="log" for="category">Login As :</label>
     <select name="category" id="category">
     <option value="Patient">Patient</option>
     <option value="Health Worker">Health Worker</option>
     <option value="Government">Government</option>
+    
+   
   </select><br/><br/>
 		 
       </div>
@@ -63,6 +65,8 @@
         <br>
         <br>
         <a class="signup" style="color:lightyellow;text-align:center;margin:40%" href="register">Signup</a>
+        
+        
       </form>
       </div>
     </div>

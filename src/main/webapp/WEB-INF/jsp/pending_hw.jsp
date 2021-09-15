@@ -7,7 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1> ${patient.name} </h1>
-	<h1> ${patient.mobile} </h1>
+	<h1> Sorry, Your Authentication is yet to be approved by the government</h1>
 </body>
 </html>

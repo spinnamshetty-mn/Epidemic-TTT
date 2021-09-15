@@ -16,7 +16,7 @@
 
   <body>
 
-<form action="/action_page.php">
+<form action="/signup/healthworker">
   <div class="container">
     <h1>Health Worker Registration</h1>
     <p>Please fill in this form to create an account.</p>
@@ -27,14 +27,14 @@
     <input type="password" placeholder="Enter Password" name="password" id="password" minlength="8" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number." required>
     <label for="password-repeat"><b>Confirm Password</b></label>
     <input type="password" placeholder="Confirm Password" name="password-repeat" id="password-repeat" minlength="8" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number." required>
-    <label for="organisation"><b>Organisation</b></label>
-    <input type="text" placeholder="Enter Organisation" name="organisation" id="organisation" pattern="[a-zA-Z]+" required>
-	<label for="type-hw">Choose a type of Health Worker:</label>
-	<select name="healthworker" id="healthworker" required>
-  	<option value="Doctors">Doctors</option>
-  	<option value="Hospitals">Hospitals</option>
-  	<option value="Lab Technicians">Lab Technicians</option>
-  	<option value="Front Line Workers">Front Line Workers</option>
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name/Organisation" name="name" id="name" pattern="[a-zA-Z]+" required>
+	<label for="type">Type :</label>
+    <select name="type" id="type">
+  	<option value="Doctor">Doctor</option>
+  	<option value="Hospital">Hospital</option>
+  	<option value="Lab Technician">Lab Technician</option>
+  	<option value="Front Line Worker">Front Line Worker</option>
 	</select>
 	<br>
 	<br>
@@ -51,7 +51,7 @@
     </div>
   	</div>
   	<div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
+    <p>Already have an account? <a href="signin">Sign in</a>.</p>
   	</div>>
 </form>
 

@@ -22,6 +22,7 @@ public class Patient {
 	private	Long mobile;
 	//private	List<Integer> list=new ArrayList<Integer>();
 	
+	
 	public long getMobile() {
 		return mobile;
 	}
